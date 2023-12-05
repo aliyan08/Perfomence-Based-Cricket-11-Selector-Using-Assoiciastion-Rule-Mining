@@ -1,0 +1,13 @@
+antecedents,consequents,confidence,lift
+"frozenset({'Babar Azam', 'B/F >= 40'})",frozenset({'Won'}),0.7419354838709677,1.3523460410557184
+"frozenset({'New Zealand', 'Babar Azam'})",frozenset({'Won'}),0.7333333333333333,1.3366666666666664
+"frozenset({'Babar Azam', 'Runs >= 50'})",frozenset({'Won'}),0.78125,1.4240056818181817
+"frozenset({'S/R >= 120', 'Babar Azam'})",frozenset({'Won'}),0.7209302325581396,1.3140591966173363
+"frozenset({'West Indies', 'Babar Azam'})",frozenset({'Won'}),0.9285714285714286,1.6925324675324676
+"frozenset({'Babar Azam', 'Runs >= 50', 'B/F >= 40'})",frozenset({'Won'}),0.7777777777777778,1.4176767676767676
+"frozenset({'S/R >= 120', 'Babar Azam', 'B/F >= 40'})",frozenset({'Won'}),0.7916666666666666,1.4429924242424241
+"frozenset({'S/R >= 120', 'Babar Azam', 'Runs >= 50'})",frozenset({'Won'}),0.793103448275862,1.4456112852664575
+"frozenset({'Babar Azam', 'Runs >= 50'})","frozenset({'S/R >= 120', 'Won'})",0.71875,2.5791387024608503
+"frozenset({'S/R >= 120', 'Babar Azam', 'Runs >= 50', 'B/F >= 40'})",frozenset({'Won'}),0.7916666666666666,1.4429924242424241
+"frozenset({'S/R >= 120', 'Babar Azam', 'B/F >= 40'})","frozenset({'Won', 'Runs >= 50'})",0.7916666666666666,11.439939939939938
+"frozenset({'Babar Azam', 'Runs >= 50', 'B/F >= 40'})","frozenset({'S/R >= 120', 'Won'})",0.7037037037037037,2.5251470710083685
