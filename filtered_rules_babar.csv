@@ -1,13 +1,976 @@
 antecedents,consequents,confidence,lift
-"frozenset({'Babar Azam', 'B/F >= 40'})",frozenset({'Won'}),0.7419354838709677,1.3523460410557184
-"frozenset({'Babar Azam', 'New Zealand'})",frozenset({'Won'}),0.7333333333333333,1.3366666666666664
-"frozenset({'Babar Azam', 'Runs >= 50'})",frozenset({'Won'}),0.78125,1.4240056818181817
-"frozenset({'S/R >= 120', 'Babar Azam'})",frozenset({'Won'}),0.7209302325581396,1.3140591966173363
-"frozenset({'Babar Azam', 'West Indies'})",frozenset({'Won'}),0.9285714285714286,1.6925324675324676
-"frozenset({'B/F >= 40', 'Babar Azam', 'Runs >= 50'})",frozenset({'Won'}),0.7777777777777778,1.4176767676767676
-"frozenset({'B/F >= 40', 'S/R >= 120', 'Babar Azam'})",frozenset({'Won'}),0.7916666666666666,1.4429924242424241
-"frozenset({'S/R >= 120', 'Babar Azam', 'Runs >= 50'})",frozenset({'Won'}),0.793103448275862,1.4456112852664575
-"frozenset({'Babar Azam', 'Runs >= 50'})","frozenset({'Won', 'S/R >= 120'})",0.71875,2.5791387024608503
-"frozenset({'S/R >= 120', 'Runs >= 50', 'Babar Azam', 'B/F >= 40'})",frozenset({'Won'}),0.7916666666666666,1.4429924242424241
-"frozenset({'S/R >= 120', 'Babar Azam', 'B/F >= 40'})","frozenset({'Won', 'Runs >= 50'})",0.7916666666666666,11.439939939939938
-"frozenset({'Runs >= 50', 'Babar Azam', 'B/F >= 40'})","frozenset({'Won', 'S/R >= 120'})",0.7037037037037037,2.5251470710083685
+"frozenset({'Babar Azam', 'Australia'})",frozenset({'Lost'}),0.5714285714285714,1.3454418442193503
+"frozenset({'England', 'Babar Azam'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'India', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Middle Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Sri Lanka', 'Babar Azam'})",frozenset({'Lost'}),0.625,1.4715770171149143
+"frozenset({'1st Inning', 'Australia', 'Babar Azam'})",frozenset({'Lost'}),0.5714285714285714,1.3454418442193503
+"frozenset({'Babar Azam', 'Australia'})","frozenset({'Lost', '1st Inning'})",0.5714285714285714,2.2928571428571427
+"frozenset({'England', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'1st Inning', 'India', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'India', 'Babar Azam'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'Babar Azam', '1st Inning', 'Middle Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'Babar Azam', '1st Inning', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5833333333333334,1.373471882640587
+"frozenset({'Babar Azam', '1st Inning', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5263157894736843,1.239222751254665
+"frozenset({'Sri Lanka', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'England', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'Sri Lanka', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'Sri Lanka', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Runs < 25', 'Babar Azam', 'Australia'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Babar Azam', 'Australia'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R >= 120', 'Australia', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Top Order', 'Babar Azam', 'Australia'})",frozenset({'Lost'}),0.5714285714285714,1.3454418442193503
+"frozenset({'Babar Azam', 'Australia'})","frozenset({'Top Order', 'Lost'})",0.5714285714285714,3.987577639751553
+"frozenset({'Runs < 25', 'England', 'Babar Azam'})",frozenset({'Lost'}),0.5714285714285714,1.3454418442193503
+"frozenset({'England', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'England', 'Babar Azam', 'Runs >= 50'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'S/R < 90', 'England', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'England', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'England', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'Top Order', 'England', 'Babar Azam'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'England', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.6,4.1869565217391305
+"frozenset({'ICC World XI', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'ICC World XI', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Runs < 25', 'India', 'Babar Azam'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'India', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'S/R < 90', 'India', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'India', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Top Order', 'India', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'India', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'New Zealand', 'Lost'})",0.5,6.506756756756756
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'S/R >= 90 and < 120', 'Babar Azam', 'Middle Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'West Indies', 'Babar Azam', 'Middle Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'West Indies'})",0.5,40.125
+"frozenset({'New Zealand', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'New Zealand', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', 'Runs < 25', 'Babar Azam'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R >= 90 and < 120', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 50'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'Sri Lanka', 'S/R < 90', 'Babar Azam'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Sri Lanka', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', 'Top Order', 'Babar Azam'})",frozenset({'Lost'}),0.625,1.4715770171149143
+"frozenset({'Sri Lanka', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.625,4.361413043478262
+"frozenset({'Runs < 25', '1st Inning', 'Australia', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'Runs >= 25 and < 50', '1st Inning', 'Australia', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'1st Inning', 'Australia', 'Runs >= 50', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 50'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'S/R < 90', '1st Inning', 'Australia', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Babar Azam', 'Australia'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'S/R >= 120', '1st Inning', 'Australia', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R >= 120', 'Australia', 'Babar Azam'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Australia', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'Top Order', '1st Inning', 'Australia', 'Babar Azam'})",frozenset({'Lost'}),0.5714285714285714,1.3454418442193503
+"frozenset({'1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5714285714285714,3.987577639751553
+"frozenset({'Top Order', 'Babar Azam', 'Australia'})","frozenset({'Lost', '1st Inning'})",0.5714285714285714,2.2928571428571427
+"frozenset({'Babar Azam', 'Australia'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5714285714285714,6.7936507936507935
+"frozenset({'England', '1st Inning', 'Runs >= 25 and < 50', 'Babar Azam'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'England', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",0.6666666666666666,2.675
+"frozenset({'England', '1st Inning', 'Runs >= 50', 'Babar Azam'})",frozenset({'Lost'}),0.75,1.7658924205378972
+"frozenset({'England', 'Babar Azam', 'Runs >= 50'})","frozenset({'Lost', '1st Inning'})",0.6,2.4074999999999998
+"frozenset({'S/R < 90', 'England', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'England', 'Babar Azam'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'S/R >= 120', 'England', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'S/R >= 90 and < 120', 'England', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Top Order', 'England', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'England', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.6,4.1869565217391305
+"frozenset({'ICC World XI', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'ICC World XI', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'ICC World XI', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'ICC World XI', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'Runs < 25', '1st Inning', 'India', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'India', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Runs < 25', 'Babar Azam', 'India'})","frozenset({'Lost', '1st Inning'})",0.6666666666666666,2.675
+"frozenset({'Babar Azam', 'India'})","frozenset({'Runs < 25', 'Lost', '1st Inning'})",0.5,2.5748663101604277
+"frozenset({'S/R < 90', '1st Inning', 'India', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'India', 'Babar Azam'})","frozenset({'S/R < 90', 'Lost'})",0.5,2.689944134078212
+"frozenset({'S/R < 90', 'Babar Azam', 'India'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'India', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'India', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'Top Order', '1st Inning', 'India', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'India', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', 'Babar Azam', 'India'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'Babar Azam', 'India'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'New Zealand', '1st Inning', 'Middle Order', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'New Zealand', 'Lost'})",0.5,6.506756756756756
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'New Zealand', 'Lost', '1st Inning'})",0.5,9.826530612244897
+"frozenset({'Runs >= 25 and < 50', '1st Inning', 'Middle Order', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",1.0,28.323529411764703
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Middle Order', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning', 'S/R >= 90 and < 120'})",1.0,19.653061224489793
+"frozenset({'Babar Azam', '1st Inning', 'Middle Order', 'West Indies'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'West Indies'})",0.5,40.125
+"frozenset({'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning', 'West Indies'})",0.5,68.78571428571428
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'New Zealand', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'New Zealand', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.75,1.7658924205378972
+"frozenset({'New Zealand', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'S/R >= 90 and < 120', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.6666666666666667,1.5696821515892423
+"frozenset({'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'Top Order', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Runs >= 25 and < 50', '1st Inning', 'West Indies'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Runs >= 50', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', '1st Inning', 'Runs >= 50', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'South Africa', 'S/R >= 120', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Sri Lanka', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Sri Lanka', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'Sri Lanka', 'Top Order', '1st Inning', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Runs < 25', 'England', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),0.75,1.7658924205378972
+"frozenset({'England', 'Babar Azam', '2nd Inning'})","frozenset({'Runs < 25', 'Lost'})",0.6,1.7944099378881986
+"frozenset({'2nd Inning', 'England', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'2nd Inning', 'England', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Top Order', 'England', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'England', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",0.6,4.1869565217391305
+"frozenset({'S/R < 90', 'Babar Azam', 'New Zealand', '2nd Inning'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'2nd Inning', 'Runs < 25', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'Sri Lanka', 'Runs < 25', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'Sri Lanka', 'Babar Azam', '2nd Inning'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'Sri Lanka', 'Runs < 25', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",0.6,3.4189349112426033
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'S/R < 90', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'2nd Inning', 'Runs >= 25 and < 50', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Zimbabwe', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '2nd Inning'})",1.0,5.6982248520710055
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 50', '2nd Inning'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Babar Azam', 'Sri Lanka', '2nd Inning'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'Sri Lanka', 'Babar Azam', '2nd Inning'})","frozenset({'S/R < 90', 'Lost'})",0.5,2.689944134078212
+"frozenset({'S/R < 90', 'Babar Azam', 'Sri Lanka'})","frozenset({'Lost', '2nd Inning'})",0.6,3.4189349112426033
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'2nd Inning', 'South Africa', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'2nd Inning', 'S/R >= 120', 'Sri Lanka', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Sri Lanka', 'S/R >= 120', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",1.0,5.6982248520710055
+"frozenset({'2nd Inning', 'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'Sri Lanka', 'Top Order', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'Sri Lanka', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",0.6666666666666666,4.6521739130434785
+"frozenset({'Sri Lanka', 'Top Order', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'Sri Lanka', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.5,8.447368421052632
+"frozenset({'Top Order', 'Zimbabwe', 'Babar Azam', '2nd Inning'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'Australia'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Babar Azam', 'Australia'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'S/R < 90', 'Lost'})",1.0,5.379888268156424
+"frozenset({'Top Order', 'Runs < 25', 'Babar Azam', 'Australia'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'S/R >= 120', 'Australia', 'Runs >= 50', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R >= 120', 'Australia', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 50'})",0.5,17.833333333333332
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 50'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'Runs >= 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 50'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'Australia'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Babar Azam', 'Australia'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', 'S/R >= 120', 'Australia', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R >= 120', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'S/R < 90', 'Runs < 25', 'England', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'England', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'Runs < 25', 'England', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'Runs < 25', 'England', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Top Order', 'Runs < 25', 'England', 'Babar Azam'})",frozenset({'Lost'}),0.5714285714285714,1.3454418442193503
+"frozenset({'Runs < 25', 'England', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5714285714285714,3.987577639751553
+"frozenset({'England', 'S/R >= 120', 'Runs >= 25 and < 50', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'England', 'Babar Azam', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Top Order', 'England', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'England', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",0.6666666666666666,4.6521739130434785
+"frozenset({'England', 'S/R >= 120', 'Runs >= 50', 'Babar Azam'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'England', 'Babar Azam', 'Runs >= 50'})","frozenset({'Lost', 'S/R >= 120'})",0.6,4.0405594405594405
+"frozenset({'Top Order', 'England', 'Babar Azam', 'Runs >= 50'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'England', 'Babar Azam', 'Runs >= 50'})","frozenset({'Top Order', 'Lost'})",0.6,4.1869565217391305
+"frozenset({'S/R < 90', 'Top Order', 'England', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'England', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'England', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'England', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.6,4.1869565217391305
+"frozenset({'Top Order', 'England', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'England', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",0.6666666666666666,4.6521739130434785
+"frozenset({'ICC World XI', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'ICC World XI', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'ICC World XI', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Top Order', 'Babar Azam', 'ICC World XI', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'ICC World XI', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'Babar Azam', 'ICC World XI', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'ICC World XI', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'India'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Babar Azam', 'India'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Runs < 25', 'Babar Azam', 'India', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Top Order', 'Runs < 25', 'Babar Azam', 'India'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'Top Order', 'Babar Azam', 'India'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'Runs < 25', 'Babar Azam', 'India'})","frozenset({'Top Order', 'Lost'})",0.6666666666666666,4.6521739130434785
+"frozenset({'Babar Azam', 'India'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",0.5,4.8149999999999995
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'India'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Babar Azam', 'India'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', 'Babar Azam', 'India', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'New Zealand', 'Lost'})",0.5,6.506756756756756
+"frozenset({'New Zealand', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'Middle Order'})",0.5,3.390845070422535
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'New Zealand', 'Lost', 'Runs >= 25 and < 50'})",0.5,37.03846153846154
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'New Zealand', 'Lost'})",0.5,6.506756756756756
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'New Zealand', 'Lost', 'S/R >= 90 and < 120'})",0.5,28.323529411764703
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",1.0,53.50000000000001
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order', 'West Indies'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'West Indies'})",0.5,40.125
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'West Indies'})",0.5,481.5
+"frozenset({'S/R >= 90 and < 120', 'Babar Azam', 'Middle Order', 'West Indies'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'West Indies'})",0.5,40.125
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'S/R >= 90 and < 120', 'West Indies'})",0.5,120.375
+"frozenset({'New Zealand', 'Runs < 25', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'New Zealand', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'Sri Lanka'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam'})","frozenset({'S/R < 90', 'Lost'})",0.5,2.689944134078212
+"frozenset({'South Africa', 'Runs < 25', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', 'Runs < 25', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Sri Lanka', 'S/R >= 120', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Sri Lanka', 'Top Order', 'Runs < 25', 'Babar Azam'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'Sri Lanka', 'Runs < 25', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.6,4.1869565217391305
+"frozenset({'Runs < 25', 'Top Order', 'Zimbabwe', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'S/R < 90', 'Babar Azam', 'Sri Lanka', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Sri Lanka', 'Lost'})",0.5,9.084905660377359
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'South Africa', 'Runs >= 25 and < 50', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'Zimbabwe', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'Top Order', 'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Sri Lanka', 'Top Order', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'Sri Lanka', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",0.6666666666666666,4.6521739130434785
+"frozenset({'Top Order', 'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'South Africa', 'S/R >= 120', 'Runs >= 50', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 50', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Top Order', 'South Africa', 'Babar Azam', 'Runs >= 50'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 50'})","frozenset({'Top Order', 'Lost'})",0.6666666666666666,4.6521739130434785
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'Sri Lanka'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'S/R < 90', 'Babar Azam', 'Sri Lanka'})","frozenset({'Top Order', 'Lost'})",0.6,4.1869565217391305
+"frozenset({'S/R < 90', 'Top Order', 'Zimbabwe', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'South Africa', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Sri Lanka', 'Top Order', 'S/R >= 120', 'Babar Azam'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Sri Lanka', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Sri Lanka', 'Top Order', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'S/R < 90', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Runs < 25', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'S/R < 90', 'Lost'})",1.0,5.379888268156424
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'S/R < 90', 'Babar Azam', 'Australia'})","frozenset({'Runs < 25', 'Lost', '1st Inning'})",1.0,5.149732620320855
+"frozenset({'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'S/R < 90', 'Lost', '1st Inning'})",1.0,8.916666666666666
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Runs < 25', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', 'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'Top Order', 'Lost', '1st Inning'})",1.0,11.88888888888889
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'Runs >= 25 and < 50', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",0.5,14.161764705882351
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning', 'S/R >= 90 and < 120'})",0.5,9.826530612244897
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Runs >= 25 and < 50', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'1st Inning', 'S/R >= 120', 'Australia', 'Babar Azam', 'Runs >= 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R >= 120', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 50'})",0.5,17.833333333333332
+"frozenset({'1st Inning', 'Australia', 'Runs >= 50', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'S/R >= 120', 'Australia', 'Runs >= 50', 'Babar Azam'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'S/R >= 120', 'Australia', 'Babar Azam'})","frozenset({'Lost', '1st Inning', 'Runs >= 50'})",0.5,25.342105263157894
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 50'})","frozenset({'S/R >= 120', 'Lost', '1st Inning'})",0.5,5.801204819277108
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'1st Inning', 'Australia', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'Runs >= 50'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 50'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'S/R < 90', 'Top Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'Australia'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'S/R < 90', 'Babar Azam', 'Australia'})","frozenset({'Top Order', 'Lost', '1st Inning'})",1.0,11.88888888888889
+"frozenset({'1st Inning', 'S/R >= 120', 'Australia', 'Babar Azam', 'Top Order'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R >= 120', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'S/R >= 120', 'Australia', 'Babar Azam'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'S/R >= 120', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120', 'Top Order'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'S/R < 90', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'England', '1st Inning', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'S/R < 90', 'Runs < 25', 'England', 'Babar Azam'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'S/R < 90', 'England', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost', '1st Inning'})",0.5,2.5748663101604277
+"frozenset({'1st Inning', 'England', 'S/R >= 120', 'Babar Azam', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'England', 'S/R >= 120', 'Runs >= 25 and < 50', 'Babar Azam'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'S/R >= 90 and < 120', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R >= 90 and < 120', 'England', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'England', 'Babar Azam', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'England', '1st Inning', 'Runs >= 25 and < 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.6666666666666666,4.6521739130434785
+"frozenset({'Top Order', 'England', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",0.6666666666666666,2.675
+"frozenset({'England', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.6666666666666666,7.925925925925926
+"frozenset({'1st Inning', 'England', 'S/R >= 120', 'Babar Azam', 'Runs >= 50'})",frozenset({'Lost'}),0.75,1.7658924205378972
+"frozenset({'S/R >= 120', 'England', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 50'})",0.5,17.833333333333332
+"frozenset({'England', '1st Inning', 'Runs >= 50', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 120'})",0.75,5.050699300699301
+"frozenset({'England', 'S/R >= 120', 'Runs >= 50', 'Babar Azam'})","frozenset({'Lost', '1st Inning'})",0.6,2.4074999999999998
+"frozenset({'England', 'Babar Azam', 'Runs >= 50'})","frozenset({'S/R >= 120', 'Lost', '1st Inning'})",0.6,6.96144578313253
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),0.75,1.7658924205378972
+"frozenset({'England', '1st Inning', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.75,5.233695652173913
+"frozenset({'Top Order', 'England', 'Babar Azam', 'Runs >= 50'})","frozenset({'Lost', '1st Inning'})",0.6,2.4074999999999998
+"frozenset({'England', 'Babar Azam', 'Runs >= 50'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.6,7.133333333333334
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'S/R < 90', 'Top Order'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'England', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'S/R < 90', 'Top Order', 'England', 'Babar Azam'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'S/R < 90', 'England', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'1st Inning', 'England', 'S/R >= 120', 'Babar Azam', 'Top Order'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'S/R >= 120', 'England', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.6666666666666666,4.6521739130434785
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R >= 90 and < 120', 'England', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'ICC World XI', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'ICC World XI', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'ICC World XI', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'ICC World XI', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'ICC World XI', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",1.0,28.323529411764703
+"frozenset({'ICC World XI', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning', 'S/R >= 90 and < 120'})",0.5,9.826530612244897
+"frozenset({'1st Inning', 'Babar Azam', 'Top Order', 'ICC World XI', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'ICC World XI', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'Babar Azam', 'ICC World XI', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'ICC World XI', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'ICC World XI'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'ICC World XI', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', 'Babar Azam', 'ICC World XI', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'ICC World XI', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning'})",1.0,11.88888888888889
+"frozenset({'1st Inning', 'Babar Azam', 'S/R < 90', 'Runs < 25', 'India'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Runs < 25', '1st Inning', 'India', 'Babar Azam'})","frozenset({'S/R < 90', 'Lost'})",0.5,2.689944134078212
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'India'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'1st Inning', 'India', 'Babar Azam'})","frozenset({'S/R < 90', 'Lost', 'Runs < 25'})",0.5,2.705056179775281
+"frozenset({'S/R < 90', 'Babar Azam', 'India'})","frozenset({'Runs < 25', 'Lost', '1st Inning'})",1.0,5.149732620320855
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Runs < 25', 'India'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Runs < 25', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Runs < 25', 'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'1st Inning', 'India', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost', 'S/R >= 90 and < 120'})",0.5,7.295454545454546
+"frozenset({'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Runs < 25', 'Lost', '1st Inning'})",1.0,5.149732620320855
+"frozenset({'1st Inning', 'Babar Azam', 'Top Order', 'Runs < 25', 'India'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Top Order', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Runs < 25', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', 'Runs < 25', 'Babar Azam', 'India'})","frozenset({'Lost', '1st Inning'})",0.6666666666666666,2.675
+"frozenset({'1st Inning', 'India', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",1.0,9.629999999999999
+"frozenset({'Top Order', 'Babar Azam', 'India'})","frozenset({'Runs < 25', 'Lost', '1st Inning'})",0.5,2.5748663101604277
+"frozenset({'Runs < 25', 'Babar Azam', 'India'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.6666666666666666,7.925925925925926
+"frozenset({'Babar Azam', 'India'})","frozenset({'Runs < 25', 'Top Order', 'Lost', '1st Inning'})",0.5,8.025
+"frozenset({'1st Inning', 'Babar Azam', 'S/R < 90', 'Top Order', 'India'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', '1st Inning', 'India', 'Babar Azam'})","frozenset({'S/R < 90', 'Lost'})",0.5,2.689944134078212
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'India'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'1st Inning', 'India', 'Babar Azam'})","frozenset({'S/R < 90', 'Top Order', 'Lost'})",0.5,8.161016949152541
+"frozenset({'S/R < 90', 'Babar Azam', 'India'})","frozenset({'Top Order', 'Lost', '1st Inning'})",1.0,11.88888888888889
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'India'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Top Order', 'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'1st Inning', 'India', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'S/R >= 90 and < 120'})",0.5,14.590909090909092
+"frozenset({'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning'})",1.0,11.88888888888889
+"frozenset({'1st Inning', 'Babar Azam', 'Middle Order', 'New Zealand', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'New Zealand', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'Runs >= 25 and < 50', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'New Zealand', 'Lost'})",0.5,6.506756756756756
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'Middle Order'})",1.0,6.78169014084507
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'New Zealand', 'Lost', 'Runs >= 25 and < 50'})",0.5,37.03846153846154
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",1.0,28.323529411764703
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'New Zealand', 'Lost', '1st Inning'})",0.5,9.826530612244897
+"frozenset({'New Zealand', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning', 'Middle Order'})",0.5,5.598837209302325
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'New Zealand', 'Lost', '1st Inning', 'Runs >= 25 and < 50'})",0.5,53.50000000000001
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order', 'New Zealand'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'New Zealand', 'Lost'})",0.5,6.506756756756756
+"frozenset({'New Zealand', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'New Zealand', 'Lost', 'S/R >= 90 and < 120'})",0.5,28.323529411764703
+"frozenset({'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'New Zealand', 'Lost', '1st Inning'})",0.5,9.826530612244897
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning', 'S/R >= 90 and < 120'})",1.0,19.653061224489793
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'New Zealand', 'Lost', '1st Inning', 'S/R >= 90 and < 120'})",0.5,43.77272727272727
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'Runs >= 25 and < 50', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",1.0,53.50000000000001
+"frozenset({'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",1.0,28.323529411764703
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning', 'S/R >= 90 and < 120'})",1.0,19.653061224489793
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'Runs >= 25 and < 50', '1st Inning', 'S/R >= 90 and < 120'})",1.0,96.3
+"frozenset({'1st Inning', 'West Indies', 'Babar Azam', 'Middle Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', '1st Inning', 'Middle Order', 'West Indies'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'Babar Azam', 'Runs >= 25 and < 50', '1st Inning', 'West Indies'})","frozenset({'Lost', 'Middle Order'})",0.5,3.390845070422535
+"frozenset({'Runs >= 25 and < 50', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'West Indies'})",0.5,40.125
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'West Indies'})",0.5,481.5
+"frozenset({'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",1.0,28.323529411764703
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning', 'West Indies'})",0.5,68.78571428571428
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'Runs >= 25 and < 50', '1st Inning', 'West Indies'})",0.5,481.5
+"frozenset({'1st Inning', 'West Indies', 'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', '1st Inning', 'Middle Order', 'West Indies'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'West Indies'})",0.5,40.125
+"frozenset({'S/R >= 90 and < 120', 'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120', 'West Indies'})",0.5,120.375
+"frozenset({'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', '1st Inning', 'S/R >= 90 and < 120'})",1.0,19.653061224489793
+"frozenset({'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning', 'West Indies'})",0.5,68.78571428571428
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'S/R >= 90 and < 120', '1st Inning', 'West Indies'})",0.5,240.75
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'New Zealand', 'Runs < 25'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'New Zealand', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'New Zealand', 'Runs < 25', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'New Zealand', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'New Zealand', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning', 'S/R >= 90 and < 120'})",0.5,9.826530612244897
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'New Zealand'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'New Zealand', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'South Africa', '1st Inning', 'S/R >= 120', 'Babar Azam', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'S/R >= 120', '1st Inning', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'South Africa', 'Runs < 25', 'S/R >= 120', 'Babar Azam'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Sri Lanka', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'Sri Lanka', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",0.5,26.750000000000004
+"frozenset({'Sri Lanka', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",0.5,14.161764705882351
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5714285714285714,1.3454418442193503
+"frozenset({'1st Inning', 'West Indies', 'Babar Azam', 'S/R >= 90 and < 120', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', 'Runs >= 25 and < 50', '1st Inning', 'West Indies'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'1st Inning', 'Babar Azam', 'Sri Lanka', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', 'Top Order', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Sri Lanka', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50'})",0.5,25.342105263157894
+"frozenset({'South Africa', '1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Runs >= 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'South Africa', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 50'})",1.0,35.666666666666664
+"frozenset({'South Africa', '1st Inning', 'Runs >= 50', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 50', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Runs >= 50', 'Babar Azam'})","frozenset({'South Africa', 'Lost'})",0.5,10.467391304347826
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'South Africa', '1st Inning', 'Babar Azam', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'South Africa', '1st Inning', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'South Africa', '1st Inning', 'S/R >= 120', 'Babar Azam', 'Top Order'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'S/R >= 120', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'South Africa', '1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'South Africa', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Sri Lanka', 'Top Order'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Sri Lanka', 'Top Order', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Sri Lanka', 'Top Order', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'Sri Lanka', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'S/R >= 90 and < 120'})",0.5,14.590909090909092
+"frozenset({'Sri Lanka', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'England', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Runs < 25'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'2nd Inning', 'England', 'S/R >= 120', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'Runs < 25', 'England', 'S/R >= 120', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",0.6666666666666666,3.7988165680473367
+"frozenset({'Runs < 25', 'England', 'Babar Azam', '2nd Inning'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'England', 'Babar Azam', '2nd Inning', 'S/R >= 90 and < 120', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'2nd Inning', 'England', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Runs < 25', 'England', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'England', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),0.75,1.7658924205378972
+"frozenset({'Top Order', 'England', 'Babar Azam', '2nd Inning'})","frozenset({'Runs < 25', 'Lost'})",0.6,1.7944099378881986
+"frozenset({'Runs < 25', 'England', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",0.75,5.233695652173913
+"frozenset({'England', 'Babar Azam', '2nd Inning'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",0.6,5.778
+"frozenset({'England', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Top Order'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'2nd Inning', 'England', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'England', 'Babar Azam', '2nd Inning', 'S/R >= 90 and < 120', 'Top Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'2nd Inning', 'England', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'New Zealand', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Babar Azam', 'New Zealand', '2nd Inning'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Top Order', 'New Zealand'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Babar Azam', 'New Zealand', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Sri Lanka', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'Sri Lanka'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'S/R < 90', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam', '2nd Inning'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam', '2nd Inning'})","frozenset({'S/R < 90', 'Lost'})",1.0,5.379888268156424
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam', 'Runs < 25'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost', '2nd Inning'})",0.5,3.566666666666667
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam'})","frozenset({'S/R < 90', 'Lost', '2nd Inning'})",0.5,6.78169014084507
+"frozenset({'S/R >= 120', 'Babar Azam', '2nd Inning', 'Sri Lanka', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'2nd Inning', 'S/R >= 120', 'Sri Lanka', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Sri Lanka', 'Runs < 25', 'S/R >= 120', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",1.0,5.6982248520710055
+"frozenset({'Sri Lanka', 'S/R >= 120', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost', '2nd Inning'})",1.0,7.133333333333334
+"frozenset({'S/R >= 120', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'2nd Inning', 'Runs < 25', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.6,4.1869565217391305
+"frozenset({'Babar Azam', '2nd Inning', 'Sri Lanka', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'Sri Lanka', 'Top Order', 'Babar Azam', '2nd Inning'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'Sri Lanka', 'Runs < 25', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",0.6,4.1869565217391305
+"frozenset({'Sri Lanka', 'Top Order', 'Runs < 25', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",0.6,3.4189349112426033
+"frozenset({'Sri Lanka', 'Babar Azam', '2nd Inning'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",0.5,4.8149999999999995
+"frozenset({'Sri Lanka', 'Runs < 25', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.6,10.136842105263158
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Runs < 25', 'Top Order', 'Zimbabwe', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.5,8.447368421052632
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Sri Lanka', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'Sri Lanka', 'Lost'})",0.5,9.084905660377359
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'S/R < 90', 'Lost'})",1.0,5.379888268156424
+"frozenset({'S/R < 90', 'Babar Azam', 'Sri Lanka', 'Runs >= 25 and < 50'})","frozenset({'Lost', '2nd Inning'})",1.0,5.6982248520710055
+"frozenset({'S/R < 90', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Sri Lanka', 'Lost', '2nd Inning'})",0.5,11.74390243902439
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'S/R < 90', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.5,8.447368421052632
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'Runs >= 25 and < 50', 'S/R >= 120', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'South Africa', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'2nd Inning', 'Runs >= 25 and < 50', 'S/R >= 120', 'Babar Azam'})","frozenset({'South Africa', 'Lost'})",0.5,10.467391304347826
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 120', '2nd Inning'})",0.5,8.025
+"frozenset({'S/R >= 120', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'2nd Inning', 'Runs >= 25 and < 50', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'S/R >= 90 and < 120', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'2nd Inning', 'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'Zimbabwe', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '2nd Inning'})",1.0,5.6982248520710055
+"frozenset({'Zimbabwe', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50', '2nd Inning'})",0.5,18.51923076923077
+"frozenset({'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'2nd Inning', 'Lost', 'S/R >= 90 and < 120'})",1.0,25.342105263157894
+"frozenset({'South Africa', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.5,8.447368421052632
+"frozenset({'Babar Azam', '2nd Inning', 'Sri Lanka', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Zimbabwe', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', 'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '2nd Inning'})",1.0,5.6982248520710055
+"frozenset({'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",1.0,16.894736842105264
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Runs >= 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'S/R >= 120', 'Runs >= 50', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 50', '2nd Inning'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'South Africa', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 50', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Top Order', 'Sri Lanka'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'S/R < 90', 'Babar Azam', 'Sri Lanka', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",0.6,4.1869565217391305
+"frozenset({'Sri Lanka', 'Top Order', 'Babar Azam', '2nd Inning'})","frozenset({'S/R < 90', 'Lost'})",0.5,2.689944134078212
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'Sri Lanka'})","frozenset({'Lost', '2nd Inning'})",0.6,3.4189349112426033
+"frozenset({'Sri Lanka', 'Babar Azam', '2nd Inning'})","frozenset({'S/R < 90', 'Top Order', 'Lost'})",0.5,8.161016949152541
+"frozenset({'S/R < 90', 'Babar Azam', 'Sri Lanka'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.6,10.136842105263158
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'S/R < 90', 'Top Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'S/R < 90', 'Top Order', 'Zimbabwe', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.5,8.447368421052632
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Top Order'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'2nd Inning', 'South Africa', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'S/R >= 120', 'Babar Azam', '2nd Inning', 'Sri Lanka', 'Top Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'2nd Inning', 'S/R >= 120', 'Sri Lanka', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Sri Lanka', 'Top Order', 'S/R >= 120', 'Babar Azam'})","frozenset({'Lost', '2nd Inning'})",1.0,5.6982248520710055
+"frozenset({'Sri Lanka', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",1.0,16.894736842105264
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'S/R >= 90 and < 120', 'Top Order'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'2nd Inning', 'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', 'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.5,8.447368421052632
+"frozenset({'Babar Azam', 'Australia', 'S/R < 90', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'Australia'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', 'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'S/R < 90', 'Lost'})",1.0,5.379888268156424
+"frozenset({'S/R < 90', 'Babar Azam', 'Australia'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",1.0,9.629999999999999
+"frozenset({'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'S/R < 90', 'Top Order', 'Lost'})",1.0,16.322033898305083
+"frozenset({'Babar Azam', 'Australia', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50'})",0.5,25.342105263157894
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', 'S/R >= 90 and < 120'})",0.5,14.590909090909092
+"frozenset({'S/R >= 120', 'Australia', 'Babar Azam', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Top Order', 'S/R >= 120', 'Australia', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 50'})",0.5,17.833333333333332
+"frozenset({'S/R >= 120', 'Australia', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'Runs >= 50'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'S/R >= 120', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'Runs >= 50'})",0.5,25.342105263157894
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 50'})","frozenset({'Top Order', 'Lost', 'S/R >= 120'})",0.5,10.467391304347826
+"frozenset({'England', 'Babar Azam', 'S/R < 90', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Top Order', 'England', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'S/R < 90', 'Runs < 25', 'England', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'S/R < 90', 'England', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",0.5,4.8149999999999995
+"frozenset({'England', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'Runs < 25', 'England', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.6666666666666666,4.6521739130434785
+"frozenset({'England', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Runs < 25', 'England', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'England', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'England', 'S/R >= 120', 'Runs >= 25 and < 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'England', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'England', 'Babar Azam', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'England', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),0.6,1.4127139364303178
+"frozenset({'England', 'S/R >= 120', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.6,4.1869565217391305
+"frozenset({'Top Order', 'England', 'Babar Azam', 'Runs >= 50'})","frozenset({'Lost', 'S/R >= 120'})",0.6,4.0405594405594405
+"frozenset({'England', 'Babar Azam', 'Runs >= 50'})","frozenset({'Top Order', 'Lost', 'S/R >= 120'})",0.6,12.56086956521739
+"frozenset({'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'ICC World XI', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Top Order', 'Babar Azam', 'ICC World XI', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'ICC World XI', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', 'Babar Azam', 'ICC World XI', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'ICC World XI', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50'})",1.0,50.68421052631579
+"frozenset({'ICC World XI', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', 'S/R >= 90 and < 120'})",0.5,14.590909090909092
+"frozenset({'Babar Azam', 'S/R < 90', 'Top Order', 'Runs < 25', 'India'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'India'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'India'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'S/R < 90', 'Babar Azam', 'India'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",1.0,9.629999999999999
+"frozenset({'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs < 25', 'India'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Top Order', 'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Runs < 25', 'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",1.0,9.629999999999999
+"frozenset({'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order', 'New Zealand', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'New Zealand', 'Lost'})",0.5,6.506756756756756
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Middle Order'})",0.5,3.390845070422535
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'New Zealand', 'Lost', 'Runs >= 25 and < 50'})",0.5,37.03846153846154
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",1.0,53.50000000000001
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'New Zealand', 'Lost', 'S/R >= 90 and < 120'})",0.5,28.323529411764703
+"frozenset({'New Zealand', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'Middle Order', 'S/R >= 90 and < 120'})",0.5,15.532258064516128
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'New Zealand', 'Lost', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",0.5,160.5
+"frozenset({'West Indies', 'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R >= 90 and < 120', 'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'West Indies'})",0.5,40.125
+"frozenset({'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",1.0,53.50000000000001
+"frozenset({'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'West Indies'})",0.5,481.5
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'S/R >= 90 and < 120', 'West Indies'})",0.5,120.375
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'S/R >= 90 and < 120', 'Runs >= 25 and < 50', 'West Indies'})",0.5,481.5
+"frozenset({'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'New Zealand', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'New Zealand', 'Runs < 25', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Babar Azam', 'S/R < 90', 'Top Order', 'Sri Lanka', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'Sri Lanka'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R < 90', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'S/R < 90', 'Top Order', 'Zimbabwe', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam', 'Runs < 25'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Runs < 25', 'Top Order', 'Zimbabwe', 'Babar Azam'})","frozenset({'S/R < 90', 'Lost'})",0.5,2.689944134078212
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",0.5,4.8149999999999995
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam'})","frozenset({'S/R < 90', 'Top Order', 'Lost'})",0.5,8.161016949152541
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'Runs < 25', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'S/R >= 120', 'Babar Azam', 'Sri Lanka', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Sri Lanka', 'Top Order', 'S/R >= 120', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Sri Lanka', 'Runs < 25', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Sri Lanka', 'S/R >= 120', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",1.0,9.629999999999999
+"frozenset({'Babar Azam', 'S/R < 90', 'Top Order', 'Sri Lanka', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R < 90', 'Babar Azam', 'Sri Lanka', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Sri Lanka', 'Lost'})",0.5,9.084905660377359
+"frozenset({'S/R < 90', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Sri Lanka', 'Top Order', 'Lost'})",0.5,30.09375
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'Runs >= 25 and < 50', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Top Order', 'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', 'S/R >= 120'})",0.5,10.467391304347826
+"frozenset({'Babar Azam', 'S/R >= 90 and < 120', 'Sri Lanka', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Sri Lanka', 'Top Order', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Sri Lanka', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50'})",0.5,25.342105263157894
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Top Order', 'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'Zimbabwe', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Top Order', 'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50'})",0.5,25.342105263157894
+"frozenset({'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', 'S/R >= 90 and < 120'})",1.0,29.181818181818183
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'S/R >= 120', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'South Africa', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 50', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'S/R < 90', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'S/R < 90', 'Top Order'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'S/R < 90', 'Runs < 25'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'Top Order', 'Runs < 25'})","frozenset({'S/R < 90', 'Lost'})",1.0,5.379888268156424
+"frozenset({'Babar Azam', 'Australia', 'S/R < 90', 'Top Order', 'Runs < 25'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'S/R < 90', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",1.0,9.629999999999999
+"frozenset({'Runs < 25', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'S/R < 90', 'Top Order', 'Lost'})",1.0,16.322033898305083
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'Australia'})","frozenset({'Runs < 25', 'Lost', '1st Inning'})",1.0,5.149732620320855
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'Top Order', 'Lost', '1st Inning'})",1.0,11.88888888888889
+"frozenset({'Top Order', 'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'S/R < 90', 'Lost', '1st Inning'})",1.0,8.916666666666666
+"frozenset({'S/R < 90', 'Babar Azam', 'Australia'})","frozenset({'Runs < 25', 'Top Order', 'Lost', '1st Inning'})",1.0,16.05
+"frozenset({'Runs < 25', 'Babar Azam', 'Australia'})","frozenset({'S/R < 90', 'Top Order', 'Lost', '1st Inning'})",1.0,29.181818181818183
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120', 'Top Order'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Babar Azam', 'Australia', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50'})",0.5,25.342105263157894
+"frozenset({'Runs >= 25 and < 50', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'S/R >= 90 and < 120'})",0.5,14.590909090909092
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",0.5,14.161764705882351
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning', 'S/R >= 90 and < 120'})",0.5,9.826530612244897
+"frozenset({'Babar Azam', 'Australia', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning', 'Runs >= 25 and < 50'})",0.5,68.78571428571428
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', '1st Inning', 'S/R >= 90 and < 120'})",0.5,20.934782608695652
+"frozenset({'1st Inning', 'S/R >= 120', 'Australia', 'Babar Azam', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'1st Inning', 'S/R >= 120', 'Australia', 'Babar Azam', 'Top Order'})","frozenset({'Lost', 'Runs >= 50'})",0.5,17.833333333333332
+"frozenset({'1st Inning', 'S/R >= 120', 'Australia', 'Babar Azam', 'Runs >= 50'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'1st Inning', 'Babar Azam', 'Australia', 'Top Order', 'Runs >= 50'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'S/R >= 120', 'Australia', 'Babar Azam', 'Top Order', 'Runs >= 50'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'S/R >= 120', '1st Inning', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'Runs >= 50'})",0.5,25.342105263157894
+"frozenset({'1st Inning', 'Australia', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'S/R >= 120'})",0.5,10.467391304347826
+"frozenset({'Top Order', 'S/R >= 120', 'Australia', 'Babar Azam'})","frozenset({'Lost', '1st Inning', 'Runs >= 50'})",0.5,25.342105263157894
+"frozenset({'S/R >= 120', 'Australia', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'Top Order', 'Babar Azam', 'Australia', 'Runs >= 50'})","frozenset({'S/R >= 120', 'Lost', '1st Inning'})",0.5,5.801204819277108
+"frozenset({'S/R >= 120', 'Australia', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '1st Inning', 'Runs >= 50'})",0.5,34.39285714285714
+"frozenset({'Babar Azam', 'Australia', 'Runs >= 50'})","frozenset({'Top Order', 'S/R >= 120', 'Lost', '1st Inning'})",0.5,19.259999999999998
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'S/R < 90', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'S/R < 90', 'Top Order'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'S/R < 90', 'Runs < 25'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'England', 'Babar Azam', 'S/R < 90', 'Top Order', 'Runs < 25'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'S/R < 90', 'England', '1st Inning', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",0.5,4.8149999999999995
+"frozenset({'S/R < 90', 'Top Order', 'England', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost', '1st Inning'})",0.5,2.5748663101604277
+"frozenset({'S/R < 90', 'Runs < 25', 'England', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'S/R < 90', 'England', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost', '1st Inning'})",0.5,8.025
+"frozenset({'1st Inning', 'England', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'1st Inning', 'England', 'S/R >= 120', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'England', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'England', 'S/R >= 120', 'Runs >= 25 and < 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'S/R >= 90 and < 120', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'England', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'S/R >= 90 and < 120', 'England', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50'})",0.5,25.342105263157894
+"frozenset({'England', 'Babar Azam', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning'})",1.0,11.88888888888889
+"frozenset({'1st Inning', 'England', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),0.75,1.7658924205378972
+"frozenset({'1st Inning', 'England', 'S/R >= 120', 'Babar Azam', 'Top Order'})","frozenset({'Lost', 'Runs >= 50'})",0.5,17.833333333333332
+"frozenset({'1st Inning', 'England', 'S/R >= 120', 'Babar Azam', 'Runs >= 50'})","frozenset({'Top Order', 'Lost'})",0.75,5.233695652173913
+"frozenset({'1st Inning', 'England', 'Babar Azam', 'Top Order', 'Runs >= 50'})","frozenset({'Lost', 'S/R >= 120'})",0.75,5.050699300699301
+"frozenset({'England', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs >= 50'})","frozenset({'Lost', '1st Inning'})",0.6,2.4074999999999998
+"frozenset({'S/R >= 120', 'England', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'Runs >= 50'})",0.5,25.342105263157894
+"frozenset({'England', '1st Inning', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'S/R >= 120'})",0.75,15.701086956521738
+"frozenset({'England', 'S/R >= 120', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.6,7.133333333333334
+"frozenset({'Top Order', 'England', 'Babar Azam', 'Runs >= 50'})","frozenset({'S/R >= 120', 'Lost', '1st Inning'})",0.6,6.96144578313253
+"frozenset({'England', 'Babar Azam', 'Runs >= 50'})","frozenset({'Top Order', 'S/R >= 120', 'Lost', '1st Inning'})",0.6,23.112
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'ICC World XI', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'ICC World XI'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'ICC World XI', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'1st Inning', 'Babar Azam', 'Top Order', 'ICC World XI', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'ICC World XI', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'ICC World XI', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50'})",1.0,50.68421052631579
+"frozenset({'ICC World XI', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'S/R >= 90 and < 120'})",0.5,14.590909090909092
+"frozenset({'Top Order', 'Babar Azam', 'ICC World XI', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",1.0,28.323529411764703
+"frozenset({'ICC World XI', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning'})",1.0,11.88888888888889
+"frozenset({'Top Order', 'Babar Azam', 'ICC World XI', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning', 'S/R >= 90 and < 120'})",0.5,9.826530612244897
+"frozenset({'ICC World XI', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning', 'Runs >= 25 and < 50'})",1.0,137.57142857142856
+"frozenset({'ICC World XI', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', '1st Inning', 'S/R >= 90 and < 120'})",0.5,20.934782608695652
+"frozenset({'1st Inning', 'Babar Azam', 'S/R < 90', 'Top Order', 'Runs < 25', 'India'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'Babar Azam', 'S/R < 90', 'Top Order', 'India'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'1st Inning', 'Babar Azam', 'S/R < 90', 'Runs < 25', 'India'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'1st Inning', 'Babar Azam', 'Top Order', 'Runs < 25', 'India'})","frozenset({'S/R < 90', 'Lost'})",0.5,2.689944134078212
+"frozenset({'Babar Azam', 'S/R < 90', 'Top Order', 'Runs < 25', 'India'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'S/R < 90', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",1.0,9.629999999999999
+"frozenset({'Top Order', '1st Inning', 'India', 'Babar Azam'})","frozenset({'S/R < 90', 'Lost', 'Runs < 25'})",0.5,2.705056179775281
+"frozenset({'Runs < 25', '1st Inning', 'India', 'Babar Azam'})","frozenset({'S/R < 90', 'Top Order', 'Lost'})",0.5,8.161016949152541
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'India'})","frozenset({'Runs < 25', 'Lost', '1st Inning'})",1.0,5.149732620320855
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'India'})","frozenset({'Top Order', 'Lost', '1st Inning'})",1.0,11.88888888888889
+"frozenset({'1st Inning', 'India', 'Babar Azam'})","frozenset({'S/R < 90', 'Top Order', 'Lost', 'Runs < 25'})",0.5,8.301724137931036
+"frozenset({'S/R < 90', 'Babar Azam', 'India'})","frozenset({'Runs < 25', 'Top Order', 'Lost', '1st Inning'})",1.0,16.05
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs < 25', 'India'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'India'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Runs < 25', 'India'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'1st Inning', 'Babar Azam', 'Top Order', 'Runs < 25', 'India'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs < 25', 'India'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",1.0,9.629999999999999
+"frozenset({'Top Order', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost', 'S/R >= 90 and < 120'})",0.5,7.295454545454546
+"frozenset({'Runs < 25', '1st Inning', 'India', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'S/R >= 90 and < 120'})",0.5,14.590909090909092
+"frozenset({'Top Order', 'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Runs < 25', 'Lost', '1st Inning'})",1.0,5.149732620320855
+"frozenset({'Runs < 25', 'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning'})",1.0,11.88888888888889
+"frozenset({'1st Inning', 'India', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost', 'S/R >= 90 and < 120'})",0.5,20.934782608695652
+"frozenset({'Babar Azam', 'India', 'S/R >= 90 and < 120'})","frozenset({'Runs < 25', 'Top Order', 'Lost', '1st Inning'})",1.0,16.05
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order', 'New Zealand', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order', 'New Zealand'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order', 'Runs >= 25 and < 50'})","frozenset({'New Zealand', 'Lost'})",0.5,6.506756756756756
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'New Zealand', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'Middle Order'})",1.0,6.78169014084507
+"frozenset({'1st Inning', 'Babar Azam', 'Middle Order', 'New Zealand', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order', 'New Zealand', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'New Zealand', 'Lost', 'Runs >= 25 and < 50'})",0.5,37.03846153846154
+"frozenset({'New Zealand', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",1.0,53.50000000000001
+"frozenset({'Runs >= 25 and < 50', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'New Zealand', 'Lost', 'S/R >= 90 and < 120'})",0.5,28.323529411764703
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'Middle Order', 'S/R >= 90 and < 120'})",1.0,31.064516129032256
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",1.0,28.323529411764703
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'New Zealand', 'Lost', '1st Inning'})",0.5,9.826530612244897
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning', 'Middle Order'})",0.5,5.598837209302325
+"frozenset({'New Zealand', 'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', '1st Inning', 'S/R >= 90 and < 120'})",1.0,19.653061224489793
+"frozenset({'1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'New Zealand', 'Lost', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",0.5,160.5
+"frozenset({'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'New Zealand', 'Lost', '1st Inning', 'Runs >= 25 and < 50'})",0.5,53.50000000000001
+"frozenset({'New Zealand', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'Runs >= 25 and < 50', '1st Inning', 'S/R >= 90 and < 120'})",1.0,96.3
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'New Zealand', 'Lost', '1st Inning', 'S/R >= 90 and < 120'})",0.5,43.77272727272727
+"frozenset({'New Zealand', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning', 'Middle Order', 'S/R >= 90 and < 120'})",0.5,30.09375
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'1st Inning', 'S/R >= 90 and < 120', 'Lost', 'New Zealand', 'Runs >= 25 and < 50'})",0.5,240.75
+"frozenset({'1st Inning', 'West Indies', 'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'1st Inning', 'West Indies', 'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'1st Inning', 'West Indies', 'Babar Azam', 'S/R >= 90 and < 120', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'Middle Order'})",0.5,3.390845070422535
+"frozenset({'1st Inning', 'West Indies', 'Babar Azam', 'Middle Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'West Indies'})",0.5,40.125
+"frozenset({'West Indies', 'Babar Azam', 'S/R >= 90 and < 120', 'Middle Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'Babar Azam', '1st Inning', 'Middle Order', 'West Indies'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",1.0,53.50000000000001
+"frozenset({'Babar Azam', 'Runs >= 25 and < 50', '1st Inning', 'West Indies'})","frozenset({'Lost', 'Middle Order', 'S/R >= 90 and < 120'})",0.5,15.532258064516128
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'West Indies'})",0.5,481.5
+"frozenset({'Runs >= 25 and < 50', '1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120', 'West Indies'})",0.5,120.375
+"frozenset({'S/R >= 90 and < 120', 'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",1.0,28.323529411764703
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', '1st Inning', 'S/R >= 90 and < 120'})",1.0,19.653061224489793
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning', 'West Indies'})",0.5,68.78571428571428
+"frozenset({'1st Inning', 'Middle Order', 'Babar Azam'})","frozenset({'Lost', 'S/R >= 90 and < 120', 'Runs >= 25 and < 50', 'West Indies'})",0.5,481.5
+"frozenset({'Babar Azam', 'Middle Order', 'West Indies'})","frozenset({'Lost', 'Runs >= 25 and < 50', '1st Inning', 'S/R >= 90 and < 120'})",1.0,96.3
+"frozenset({'Babar Azam', 'Middle Order', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50', '1st Inning', 'West Indies'})",0.5,481.5
+"frozenset({'Runs >= 25 and < 50', 'Babar Azam', 'Middle Order'})","frozenset({'Lost', 'S/R >= 90 and < 120', '1st Inning', 'West Indies'})",0.5,240.75
+"frozenset({'Babar Azam', 'Middle Order'})","frozenset({'1st Inning', 'West Indies', 'S/R >= 90 and < 120', 'Lost', 'Runs >= 25 and < 50'})",0.5,481.5
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'New Zealand', 'Runs < 25'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'New Zealand'})","frozenset({'Runs < 25', 'Lost'})",0.6666666666666666,1.9937888198757763
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'New Zealand', 'Runs < 25'})","frozenset({'Top Order', 'Lost'})",0.6666666666666666,4.6521739130434785
+"frozenset({'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'New Zealand', 'Runs < 25'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'New Zealand', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",0.5,4.8149999999999995
+"frozenset({'New Zealand', 'Runs < 25', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'South Africa', '1st Inning', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', '1st Inning', 'S/R >= 120', 'Babar Azam', 'Top Order'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'South Africa', '1st Inning', 'S/R >= 120', 'Babar Azam', 'Runs < 25'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs < 25'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'South Africa', 'S/R >= 120', '1st Inning', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",0.5,4.8149999999999995
+"frozenset({'South Africa', 'Runs < 25', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Sri Lanka', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Sri Lanka', 'Top Order'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",0.5,8.025
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Sri Lanka', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'1st Inning', 'Babar Azam', 'Sri Lanka', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",0.5,5.5344827586206895
+"frozenset({'Babar Azam', 'S/R >= 90 and < 120', 'Sri Lanka', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', '1st Inning'})",0.5,2.00625
+"frozenset({'Sri Lanka', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50'})",0.5,25.342105263157894
+"frozenset({'Sri Lanka', 'Top Order', '1st Inning', 'Babar Azam'})","frozenset({'Lost', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",0.5,26.750000000000004
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'S/R >= 90 and < 120'})",0.5,14.590909090909092
+"frozenset({'Sri Lanka', 'Top Order', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', '1st Inning', 'Runs >= 25 and < 50'})",0.5,14.161764705882351
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning'})",0.5,5.944444444444445
+"frozenset({'Sri Lanka', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50', 'S/R >= 90 and < 120'})",0.5,60.1875
+"frozenset({'Sri Lanka', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning', 'Runs >= 25 and < 50'})",0.5,68.78571428571428
+"frozenset({'South Africa', '1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'South Africa', '1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order'})","frozenset({'Lost', 'Runs >= 50'})",1.0,35.666666666666664
+"frozenset({'South Africa', '1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Runs >= 50'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'South Africa', '1st Inning', 'Babar Azam', 'Top Order', 'Runs >= 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'South Africa', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 50'})","frozenset({'Lost', '1st Inning'})",1.0,4.0125
+"frozenset({'1st Inning', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 50'})","frozenset({'South Africa', 'Lost'})",0.5,10.467391304347826
+"frozenset({'South Africa', 'S/R >= 90 and < 120', '1st Inning', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'Runs >= 50'})",1.0,50.68421052631579
+"frozenset({'South Africa', '1st Inning', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost', 'S/R >= 90 and < 120'})",1.0,29.181818181818183
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 50', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '1st Inning'})",1.0,11.88888888888889
+"frozenset({'S/R >= 90 and < 120', '1st Inning', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'South Africa', 'Lost'})",0.5,28.323529411764703
+"frozenset({'England', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),0.6666666666666666,1.5696821515892418
+"frozenset({'England', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Top Order'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'England', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Runs < 25'})","frozenset({'Top Order', 'Lost'})",0.6666666666666666,4.6521739130434785
+"frozenset({'England', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs < 25'})","frozenset({'Lost', '2nd Inning'})",0.6666666666666666,3.7988165680473367
+"frozenset({'England', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs < 25'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'2nd Inning', 'England', 'S/R >= 120', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",0.5,4.8149999999999995
+"frozenset({'Runs < 25', 'England', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.6666666666666666,11.26315789473684
+"frozenset({'Runs < 25', 'England', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost', 'S/R >= 120'})",0.5,10.467391304347826
+"frozenset({'England', 'Babar Azam', '2nd Inning', 'S/R >= 90 and < 120', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'England', 'Babar Azam', '2nd Inning', 'S/R >= 90 and < 120', 'Top Order'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'England', 'Babar Azam', '2nd Inning', 'S/R >= 90 and < 120', 'Runs < 25'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'England', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs < 25'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'2nd Inning', 'England', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",1.0,9.629999999999999
+"frozenset({'Runs < 25', 'England', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.5,8.447368421052632
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Top Order', 'New Zealand', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Top Order', 'New Zealand'})","frozenset({'Runs < 25', 'Lost'})",0.5,1.4953416149068324
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'New Zealand', 'Runs < 25'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'S/R < 90', 'Babar Azam', 'New Zealand', '2nd Inning'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",0.5,4.8149999999999995
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Top Order', 'Sri Lanka', 'Runs < 25'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Sri Lanka', 'Runs < 25'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'Babar Azam', 'S/R < 90', 'Top Order', 'Sri Lanka', 'Runs < 25'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'S/R < 90', 'Runs < 25', 'Babar Azam', 'Sri Lanka'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.5,8.447368421052632
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'S/R < 90', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'S/R < 90', 'Top Order'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'S/R < 90', 'Runs < 25'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs < 25'})","frozenset({'S/R < 90', 'Lost'})",1.0,5.379888268156424
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R < 90', 'Top Order', 'Runs < 25'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam', '2nd Inning'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",1.0,9.629999999999999
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam', '2nd Inning'})","frozenset({'S/R < 90', 'Top Order', 'Lost'})",1.0,16.322033898305083
+"frozenset({'S/R < 90', 'Top Order', 'Zimbabwe', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost', '2nd Inning'})",0.5,3.566666666666667
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam', 'Runs < 25'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.5,8.447368421052632
+"frozenset({'Runs < 25', 'Top Order', 'Zimbabwe', 'Babar Azam'})","frozenset({'S/R < 90', 'Lost', '2nd Inning'})",0.5,6.78169014084507
+"frozenset({'S/R < 90', 'Zimbabwe', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost', '2nd Inning'})",0.5,12.0375
+"frozenset({'Runs < 25', 'Zimbabwe', 'Babar Azam'})","frozenset({'S/R < 90', 'Top Order', 'Lost', '2nd Inning'})",0.5,18.51923076923077
+"frozenset({'S/R >= 120', 'Babar Azam', '2nd Inning', 'Sri Lanka', 'Top Order', 'Runs < 25'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'S/R >= 120', 'Babar Azam', '2nd Inning', 'Sri Lanka', 'Top Order'})","frozenset({'Runs < 25', 'Lost'})",1.0,2.9906832298136647
+"frozenset({'S/R >= 120', 'Babar Azam', '2nd Inning', 'Sri Lanka', 'Runs < 25'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'S/R >= 120', 'Babar Azam', 'Sri Lanka', 'Top Order', 'Runs < 25'})","frozenset({'Lost', '2nd Inning'})",1.0,5.6982248520710055
+"frozenset({'2nd Inning', 'S/R >= 120', 'Sri Lanka', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost'})",1.0,9.629999999999999
+"frozenset({'Sri Lanka', 'Top Order', 'S/R >= 120', 'Babar Azam'})","frozenset({'Runs < 25', 'Lost', '2nd Inning'})",1.0,7.133333333333334
+"frozenset({'Sri Lanka', 'Runs < 25', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",1.0,16.894736842105264
+"frozenset({'Sri Lanka', 'S/R >= 120', 'Babar Azam'})","frozenset({'Runs < 25', 'Top Order', 'Lost', '2nd Inning'})",1.0,24.075
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Top Order', 'Sri Lanka', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Sri Lanka', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Babar Azam', '2nd Inning', 'S/R < 90', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'Sri Lanka', 'Lost'})",0.5,9.084905660377359
+"frozenset({'Babar Azam', '2nd Inning', 'Sri Lanka', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'S/R < 90', 'Lost'})",1.0,5.379888268156424
+"frozenset({'Babar Azam', 'S/R < 90', 'Top Order', 'Sri Lanka', 'Runs >= 25 and < 50'})","frozenset({'Lost', '2nd Inning'})",1.0,5.6982248520710055
+"frozenset({'S/R < 90', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'Sri Lanka', 'Top Order', 'Lost'})",0.5,30.09375
+"frozenset({'Sri Lanka', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'S/R < 90', 'Top Order', 'Lost'})",1.0,16.322033898305083
+"frozenset({'S/R < 90', 'Babar Azam', 'Sri Lanka', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",1.0,16.894736842105264
+"frozenset({'S/R < 90', 'Top Order', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Sri Lanka', 'Lost', '2nd Inning'})",0.5,11.74390243902439
+"frozenset({'S/R < 90', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Sri Lanka', 'Top Order', 'Lost', '2nd Inning'})",0.5,37.03846153846154
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'South Africa', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'S/R >= 120', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'South Africa', 'Lost'})",0.5,10.467391304347826
+"frozenset({'South Africa', 'Runs >= 25 and < 50', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.5,8.447368421052632
+"frozenset({'South Africa', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost', 'S/R >= 120'})",0.5,10.467391304347826
+"frozenset({'Top Order', 'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 120', '2nd Inning'})",0.5,8.025
+"frozenset({'2nd Inning', 'Runs >= 25 and < 50', 'S/R >= 120', 'Babar Azam'})","frozenset({'Top Order', 'South Africa', 'Lost'})",0.5,28.323529411764703
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost', 'S/R >= 120', '2nd Inning'})",0.5,22.92857142857143
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 25 and < 50'})",frozenset({'Lost'}),1.0,2.354523227383863
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'S/R >= 90 and < 120', 'Top Order'})","frozenset({'Lost', 'Runs >= 25 and < 50'})",1.0,16.05
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'S/R >= 90 and < 120', 'Runs >= 25 and < 50'})","frozenset({'Top Order', 'Lost'})",1.0,6.978260869565218
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', '2nd Inning'})",1.0,5.6982248520710055
+"frozenset({'Zimbabwe', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs >= 25 and < 50'})","frozenset({'Lost', 'S/R >= 90 and < 120'})",1.0,11.068965517241379
+"frozenset({'2nd Inning', 'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50'})",1.0,50.68421052631579
+"frozenset({'Top Order', 'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Lost', 'Runs >= 25 and < 50', '2nd Inning'})",0.5,18.51923076923077
+"frozenset({'Zimbabwe', 'Runs >= 25 and < 50', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",1.0,16.894736842105264
+"frozenset({'Zimbabwe', 'Runs >= 25 and < 50', 'Babar Azam', '2nd Inning'})","frozenset({'Top Order', 'Lost', 'S/R >= 90 and < 120'})",1.0,29.181818181818183
+"frozenset({'Top Order', 'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'2nd Inning', 'Lost', 'S/R >= 90 and < 120'})",1.0,25.342105263157894
+"frozenset({'Zimbabwe', 'Babar Azam', 'S/R >= 90 and < 120'})","frozenset({'Top Order', 'Lost', 'Runs >= 25 and < 50', '2nd Inning'})",0.5,40.125
+"frozenset({'Zimbabwe', 'Babar Azam', 'Runs >= 25 and < 50'})","frozenset({'2nd Inning', 'Top Order', 'Lost', 'S/R >= 90 and < 120'})",1.0,96.3
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs >= 50'})",frozenset({'Lost'}),0.5,1.1772616136919316
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', '2nd Inning', 'Runs >= 50'})","frozenset({'Top Order', 'Lost'})",0.5,3.489130434782609
+"frozenset({'South Africa', 'S/R >= 120', 'Babar Azam', 'Top Order', 'Runs >= 50'})","frozenset({'Lost', '2nd Inning'})",0.5,2.8491124260355027
+"frozenset({'South Africa', 'Babar Azam', '2nd Inning', 'Top Order', 'Runs >= 50'})","frozenset({'Lost', 'S/R >= 120'})",0.5,3.367132867132867
+"frozenset({'South Africa', 'S/R >= 120', 'Runs >= 50', 'Babar Azam'})","frozenset({'Top Order', 'Lost', '2nd Inning'})",0.5,8.447368421052632
+"frozenset({'South Africa', 'Babar Azam', 'Runs >= 50', '2nd Inning'})","frozenset({'Top Order', 'Lost', 'S/R >= 120'})",0.5,10.467391304347826
