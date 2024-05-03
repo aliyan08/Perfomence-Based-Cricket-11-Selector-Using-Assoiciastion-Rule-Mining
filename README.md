@@ -32,3 +32,23 @@ insights in the decision-making processes of cricket teams. This
 initiative stands as a testament to the growing synergy between
 data analytics and sports, offering a novel perspective on cricket
 team selection and strategic decision-making.
+
+# Refferences
+[1] Sanmoy Bhattacherjee, Jayakrushna Sahoo, Adrijit Goswami “Association Rule Mining Approach in Strategy Planning for Team India
+in ICC World Cup 2015,” Department of Mathematics, IIT Kharagpur,Kharagpur, India.
+[2] Utsav Jagdishbhai Solanki, Prof. Jay Vala, ”Selection for Balanced
+Cricket Team Fourth coming ICC Championship 2017”, G.H.Patel
+Collage of Engineering and Technology, V.V.Nagar, Anand, Gujarat,
+India.
+[3] Dataset used from link https://www.kaggle.com/datasets/jamiewelsh2/ball-by-ball-it20/data.
+[4] Agrawal, R., Imielinski, T., and Swami, A. (1993). Mining association ´
+rules between sets of items in large databases. In Proceedings of the
+1993 ACM SIGMOD international conference on Management of data.
+[5] Witten, I. H., Frank, E., and Hall, M. A. (2016). Data Mining: Practical
+Machine Learning Tools and Techniques. Morgan Kaufmann.
+[6] M. Lewis, Moneyball: The Art of Winning an Unfair Game. W. W.
+Norton & Company, 2004.
+[7] B. C. Alamar, Sports Analytics: A Guide for Coaches, Managers, and
+Other Decision Makers. Columbia University Press, 2013.
+[8] I. M. Franks, Football Analytics: Science, Performance Analysis and
+Competitive Advantage. Routledge, 2016.
